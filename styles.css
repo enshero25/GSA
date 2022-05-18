@@ -256,7 +256,6 @@ footer {
     border-color: red;*/
     background-color: white;
     width: 50%;
-    
     }
     #item-services {
         display: flex;
@@ -275,3 +274,4 @@ footer {
         gap: 100%;
     }
 }
+/*for form*/
