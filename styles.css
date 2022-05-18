@@ -175,8 +175,7 @@ main {
     margin-left: auto;
     margin-right: auto;
 }
-#gallery {
-    position: relative;
+#gallery {/*showing over sticky*/
     margin-bottom: 30px;
 }
 footer {
@@ -201,6 +200,9 @@ footer {
     align-items: flex-start;
     margin: 0;
 }
+#contact_info {
+    margin-bottom: 20px;
+}
 #icon-list { /*ul with icons in footer*/
     list-style: none;
     padding: 0;
@@ -213,9 +215,17 @@ footer {
     list-style: none;
     padding: 0;
     margin: 0;
+    margin-bottom: 20px;
 }
-.links-footer{ /*anchor tags in footer*/
+.links-footer { /*anchor tags in footer*/
     padding: 14px 0;
+    font-size: 20px;
+    text-decoration: none;
+    color: #acacac;
+}
+.links-footer:hover {
+    color: #f3bc33;
+    text-decoration: underline;
 }
 #company img {/*logo in footer*/
     display: flex;
@@ -229,7 +239,7 @@ footer {
     margin-left: auto;
     margin-right: auto;
     color:#f3bc33;
-    padding: 10px;
+    padding: 0 10px 10px 10px;
 }
 @media (max-width: 900px) {
     div.transparent-screen {
