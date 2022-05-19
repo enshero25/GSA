@@ -243,52 +243,25 @@ footer {
     color:#f3bc33;
     padding: 0 10px 10px 10px;
 }
-@media (max-width: 900px) {
-    div.transparent-screen {
-        width: 80%;
-    }
-}
-@media (max-width: 820px) {
-    .welcome {
-        height: 66vh;
-    }
-    .service-list {
-    display: flex;
-    /*border: solid;
-    border-color: red;*/
-    background-color: white;
-    width: 50%;
-    }
-    #item-services {
-        display: flex;
-        flex-wrap: wrap;
-        text-align: center;
-        font-size: 20px;
-        font-weight: bold;
-        padding: 0;
-    }
-    .footer-grid {/*100 percent footer with sectioned divs wrap around*/
-        display: flex;
-        flex-wrap: wrap;
-        padding: 60px 0 60px 0;
-        width: 100%;
-        justify-content: space-between;
-        gap: 100%;
-    }
-}
 /*for form*/
 .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:  90vh;
+}
+.left-side {/*bi fold in desktop single media*/
     display: inline-block;
     text-align: center;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    background-color: #f3bc33;
+    width: 65%;
+    /* height: 100vh; */
+    background-color: #f3bd33;
 }
 #serving {
     font-size: 28px;
     font-weight: 600;
-    margin-top: 30px;
 }
 #questions {
     font-size: 28px;
@@ -322,25 +295,36 @@ footer {
 .links-contact:hover {
     color: white;
 }
+#form-div {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
 #quote-form{
     background: rgba(125, 125, 125, 0.537);
-    margin-left: auto;
-    margin-right: auto;
+    /* mobile margin-left: auto; */
+    /* margin-right: auto; */
     /* border: solid; */
+    margin-left: 20px;
+    margin-right: 20px;
     border-color: black;
     border-radius: 7px;
-    margin-top: 10px;
+    /* margin-top: 10px; mobile*/
+    margin-top: 43px;
     margin-bottom: 45px;
     box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
 }
 .form-group{
     text-align: left;
     line-height: 1.5;
-    font-size: 20px;
+    font-size: 16px;
     display: flex;
     flex-direction: column;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    /* padding-top: 20px; */
+    padding-top: 5px;
+    padding-bottom: 0px;
     padding-left: 35px;
     color: rgb(0, 0, 0);
 }
@@ -354,8 +338,9 @@ footer {
   }
   textarea { 
     margin-right: 40px;
-    margin-left: 35px;
+    margin-left: 33px;
     height: 150px;
+    border-radius: 5px;
   }
   #submit {
     font-size: 16px;
@@ -364,11 +349,101 @@ footer {
     padding: 10px;
     border-width: 0px;
     border-radius: 5px;
-    margin: 0 25% 0 25%;
+    margin: 10px 25% 10px 25%;
   }
   #submit:hover {
       background-color:#f3bc33;
   }
-  /* #name-label, #number-label, #email-label, #message-box, textarea {
-    padding-left: 10px;
-} */
+  #message-box {
+    margin: 0;
+  }
+/*need landscape orientation media*/
+@media (max-width: 900px) {
+    div.transparent-screen {
+        width: 80%;
+    }
+    .container {
+        display: inline-block;
+        flex-wrap: wrap;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .left-side {
+        width: 100%;
+    }
+    .phone-details {
+        display: block;
+    }
+    .email-details {
+        display: block;
+    }
+    
+    #form-div {
+        display: inline-block;
+        text-align: inherit;
+        align-items: inherit;
+        justify-content: inherit;
+        width: 90%;
+        margin-bottom: 45px;
+    }
+    #quote-form{
+        background: rgba(125, 125, 125, 0.537);
+        margin-left: auto; 
+        margin-right: auto;
+        /* border: solid; */
+        border-color: black;
+        border-radius: 7px;
+        margin-top: 10px;
+        margin-bottom: 45px;
+        box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
+    }    
+    .form-group{
+        text-align: left;
+        line-height: 1.5;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        padding-left: 35px;
+        color: rgb(0, 0, 0);
+    }    
+    textarea { 
+        margin-right: 40px;
+        margin-left: 35px;
+        height: 150px;
+    }
+    footer {
+        margin-top: 60px;
+    }
+}
+@media (max-width: 820px) {
+    .welcome {
+        height: 66vh;
+    }
+    .service-list {
+    display: flex;
+    /*border: solid;
+    border-color: red;*/
+    background-color: white;
+    width: 50%;
+    }
+    #item-services {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 0;
+    }
+    .footer-grid {/*100 percent footer with sectioned divs wrap around*/
+        display: flex;
+        flex-wrap: wrap;
+        padding: 60px 0 60px 0;
+        width: 100%;
+        justify-content: space-between;
+        gap: 100%;
+    }
+}
