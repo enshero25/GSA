@@ -283,11 +283,22 @@ footer {
     align-items: center;
     justify-content: center;
     width: 100%;
+    background-color: #f3bc33;
 }
 #serving {
     font-size: 28px;
     font-weight: 600;
     margin-top: 30px;
+}
+#questions {
+    font-size: 28px;
+    font-weight: 600;
+}
+#reach-out {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: bold;
 }
 .contact-details {
     text-align: center;
@@ -301,7 +312,15 @@ footer {
 }
 .email-details {
     display: inline-block;
-    margin: 0 auto;
+    margin: 0 auto 0 0;
+}
+.links-contact {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.links-contact:hover {
+    color: white;
 }
 #quote-form{
     background: rgba(125, 125, 125, 0.537);
