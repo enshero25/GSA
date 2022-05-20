@@ -280,11 +280,11 @@ footer {
     justify-content: center;
 }
 .phone-details {
-    display: inline-block;
+    display: block;
     margin: 0 auto; 
 }
 .email-details {
-    display: inline-block;
+    display: block;
     margin: 0 auto 0 0;
 }
 .links-contact {
@@ -302,7 +302,7 @@ footer {
     justify-content: center;
     width: 50%;
 }
-#quote-form{
+#quote-form {
     background: rgba(125, 125, 125, 0.537);
     /* mobile margin-left: auto; */
     /* margin-right: auto; */
@@ -357,6 +357,38 @@ footer {
   #message-box {
     margin: 0;
   }
+  /*////////////////about us////////////////////////////*/
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 66vh;
+  }
+  
+  /* .services-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);/*usefule function
+    grid-template-rows: 300px;
+    gap: 3px;
+    margin-left: 3%;
+    text-align: center;
+    color:gray;
+}
+.tools img {
+    height: 200px;
+    width: 310px;
+    background-color: white;
+}
+#caption{
+    color: gray;
+}
+.tools img:hover {
+    box-shadow: rgb(141, 143, 144) 0px 0px 40px;
+} */
+
 /*need landscape orientation media*/
 @media (max-width: 900px) {
     div.transparent-screen {
@@ -444,5 +476,10 @@ footer {
         width: 100%;
         justify-content: space-between;
         gap: 100%;
+    }
+}
+@media (max-height: 520px) {
+    .container {
+        height:  120vh;
     }
 }
