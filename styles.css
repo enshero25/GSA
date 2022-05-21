@@ -359,37 +359,69 @@ footer {
   }
   /*////////////////about us////////////////////////////*/
   .about-section {
-    padding: 50px;
-    text-align: center;
     color: white;
-    display: inline-flex;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 80vh;
+    padding: 10px;
+    border: solid 2px red;
+  }
+  .card {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    border: solid 2px rgb(64, 255, 0);
+    padding: 10px;
+    background-color: #acacac;
+    overflow: hidden;
+  }
+  #about_us_photo {
+      max-width: 100%;
+      display: block;
+      margin: auto;
+      overflow: hidden;
+  }
+  .photo {
+    width: 50%;
+    border: solid 2px rgb(0, 76, 255);
+    overflow: hidden;
+    align-self: center;
+  }
+  .about-details {
+      text-align: center;
+      align-self: center;
+      width: 50%;
+      border: solid 2px red;
+  }
+  .about_us_title {
+      display: block;
+      /* width: 100%; */
+  }
+  .tri-card {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    border: solid 2px rgb(64, 255, 0);
+    padding: 10px;
+    background-color: #acacac;
+  }
+  .column {
+    
+    text-align: center;
     align-items: center;
     justify-content: center;
-    height: 66vh;
-  }
-  
-  /* .services-container{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);/*usefule function
-    grid-template-rows: 300px;
-    gap: 3px;
-    margin-left: 3%;
-    text-align: center;
-    color:gray;
-}
-.tools img {
-    height: 200px;
-    width: 310px;
-    background-color: white;
-}
-#caption{
-    color: gray;
-}
-.tools img:hover {
-    box-shadow: rgb(141, 143, 144) 0px 0px 40px;
-} */
+    width: 33%;
+    border: solid 2px rgb(0, 76, 255);
 
-/*need landscape orientation media*/
+  }
+  .photo2 {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* width: 100%; */
+  }
 @media (max-width: 900px) {
     div.transparent-screen {
         width: 80%;
