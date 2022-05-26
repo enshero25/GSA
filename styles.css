@@ -523,6 +523,8 @@ textarea {
     justify-content: center;
     height: 200px;
     border: solid 2px #f3bc33;
+    color: black;
+    font-size: clamp(1rem, 3.5vw, 1.25rem);
 }
 
 @media (max-width: 900px) {
