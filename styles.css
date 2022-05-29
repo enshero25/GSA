@@ -602,21 +602,23 @@ textarea {
 }
 
 #img_gallery {
-    display: flex;
+    /* display: flex; */
     width: auto;
     object-fit: contain;
     margin: 5px;
     /* padding: 5px; */
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    min-height: auto;
 }
 
 #img_gallery2 {
-    display: flex;
+    /* display: flex; */
     width: auto;
     /* padding: 10px; */
     object-fit: contain;
     margin: 10px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+
 }
 .container-gallery2 {
     display: flex;
@@ -713,7 +715,7 @@ textarea {
         display: flex;
         width: auto;
         object-fit: contain;
-        height: auto;
+        /* height: auto; */
         /* margin: 5px; */
         /* padding: 5px; */
         /* box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5); */
@@ -723,7 +725,7 @@ textarea {
         display: flex;
         width: auto;
         object-fit: contain;
-        height: auto;
+        /* height: auto; */
         /* padding: 10px; */
         /* margin: 10px;
         box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); */
@@ -752,7 +754,7 @@ textarea {
 
 }
 
-@media only screen and (max-width: 820px) {
+@media screen and (max-width: 820px) {
     .welcome {
         height: 66vh;
     }
@@ -787,7 +789,7 @@ textarea {
         display: flex;
         width: auto;
         object-fit: contain;
-        height: auto;
+        /* height: auto; */
         /* margin: 5px; */
         /* padding: 5px; */
         /* box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5); */
@@ -797,22 +799,34 @@ textarea {
         display: flex;
         width: auto;
         object-fit: contain;
-        height: auto;
+        /* height: auto; */
         /* padding: 10px; */
         /* margin: 10px;
         box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); */
     }
-    .container-gallery2 {
+    /* .container-gallery2 {
         margin-top: 25px;
-        height: auto;
-        border: solid red 2px;
-    }
-
-
+        /* height: auto; */
+        /* border: solid red 2px; 
+    } */
 }
-
-/* @media only screen and (max-height: 520px) {
+@media only screen and (max-height: 1370px) {
+    .container {
+        height: 40vh;
+    }
+}
+@media only screen and (max-height: 412px) {
     .container {
         height: 120vh;
     }
-} */
+}
+@media only screen and (max-height: 360px) {
+    .transparent-screen {
+        margin-top: 18px;
+    }
+}
+@media only screen and (max-height: 520px) {
+    .container {
+        height: 120vh;
+    }
+}
