@@ -639,15 +639,8 @@ textarea {
     justify-content: center;
     background: rgba(0, 0, 0, 0.3);
     border: solid red 2px;
-}
-#img_gallery {
-    display: flex;
-    width: 600px;
-    object-fit: contain;
-    padding: 5px;
-    overflow: hidden;
-}
- */
+}*/
+
 @media only screen and (max-width: 900px) {
     div.transparent-screen {
         width: 80%;
@@ -716,6 +709,46 @@ textarea {
     footer {
         margin-top: 60px;
     }
+    #img_gallery {
+        display: flex;
+        width: auto;
+        object-fit: contain;
+        /* margin: 5px; */
+        /* padding: 5px; */
+        /* box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5); */
+    }
+    
+    #img_gallery2 {
+        display: flex;
+        width: auto;
+        object-fit: contain;
+        /* padding: 10px; */
+        /* margin: 10px;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); */
+    }
+    
+    /* .gallery_section {
+    margin-left: 10px;;
+    margin-right: 10px;
+}
+.container-gallery {
+    display: flex;
+    /* max-width: 1300px;
+    /* width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.3);
+    border: solid red 2px;
+}
+#img_gallery {
+    display: flex;
+    width: 600px;
+    object-fit: contain;
+    padding: 5px;
+    overflow: hidden;
+}
+ */
+
 }
 
 @media only screen and (max-width: 820px) {
