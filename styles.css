@@ -648,8 +648,7 @@ textarea {
     overflow: hidden;
 }
  */
-
-@media (max-width: 900px) {
+@media only screen and (max-width: 900px) {
     div.transparent-screen {
         width: 80%;
     }
@@ -719,7 +718,7 @@ textarea {
     }
 }
 
-@media (max-width: 820px) {
+@media only screen and (max-width: 820px) {
     .welcome {
         height: 66vh;
     }
@@ -752,7 +751,7 @@ textarea {
     }
 }
 
-@media (max-height: 520px) {
+@media only screen and (max-height: 520px) {
     .container {
         height: 120vh;
     }
