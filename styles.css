@@ -775,6 +775,21 @@ textarea {
         /* border: solid red 2px; 
     } */
 }
+@media only screen and (device-width: 768px) {
+    /* For general iPad layouts */
+    #img_gallery {
+        display: flex;
+        width: auto;
+        object-fit: contain;
+        height: auto;
+    }
+    #img_gallery2 {
+        display: flex;
+        width: auto;
+        object-fit: contain;
+        height: auto;
+    }
+}
 @media only screen and (min-height: 1368px) {
     .container {
         height: 60vh;
