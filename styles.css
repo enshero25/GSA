@@ -567,6 +567,7 @@ textarea {
     text-align: center;
     align-items: center;
     justify-content: center;
+    justify-self: center;
     /* border: solid 3px #fff; */
     /* background-color: rgba(0, 0, 0, .2); */
     background-color: white;
@@ -663,12 +664,11 @@ textarea {
         /* display: flex; */
         max-width: auto;
         object-fit: contain;
-        object-position: 10%;
+        /* object-position: 10%; */
         margin-top: 5px;
         margin-bottom: 5px;
         align-self: flex-start;
         height: auto;
-        /* padding: 5px; */
         box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
     }
 }
@@ -779,26 +779,8 @@ textarea {
         object-fit: contain;
         height: auto;
         align-self: flex-start;
-        /* height: auto; */
-        /* margin: 5px; */
-        /* padding: 5px; */
         box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
     }
-    
-    /* #img_gallery2 {
-        display: flex;
-        width: auto;
-        object-fit: contain; */
-        /* height: auto; */
-        /* padding: 10px; */
-        /* margin: 10px;
-        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
-    }
-    /* .container-gallery2 {
-        margin-top: 25px;
-        /* height: auto; */
-        /* border: solid red 2px; 
-    } */
 }
 @media only screen and (device-width: 768px) {
     /* For general iPad layouts */
@@ -809,12 +791,6 @@ textarea {
         height: auto;
         box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
     }
-    /* #img_gallery2 {
-        display: flex;
-        width: auto;
-        object-fit: contain;
-        height: auto;
-    } */
 }
 @media only screen and (min-height: 1368px) {
     .container {
