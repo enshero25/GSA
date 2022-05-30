@@ -594,20 +594,19 @@ textarea {
     display: flex;
     width: 32.5%;
     flex-direction: column;
-    justify-content: center;
     /* border: solid blue 2px; */
     /* overflow: hidden; */
-    text-align: center;
-    justify-content: center;
     margin-left: 5px;
     margin-right: 5px;
+    text-align: center;
+    justify-content: center;
 }
 
 #img_gallery {
     /* display: flex; */
     max-width: 100%;
     object-fit: contain;
-    object-position: 10%;
+    /* object-position: 10%; */
     margin: 5px;
     align-self: flex-start;
     height: auto;
@@ -660,6 +659,19 @@ textarea {
         align-self: flex-start;
 
 } */
+@media only screen and (max-width: 1133px) and (min-width: 1133px) {
+    #img_gallery {
+        /* display: flex; */
+        max-width: auto;
+        object-fit: contain;
+        object-position: 10%;
+        margin: 5px;
+        align-self: flex-start;
+        height: auto;
+        /* padding: 5px; */
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    }
+}
 @media only screen and (max-width: 900px) {
     div.transparent-screen {
         width: 80%;
