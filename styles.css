@@ -599,6 +599,8 @@ textarea {
     /* overflow: hidden; */
     text-align: center;
     justify-content: center;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 #img_gallery {
@@ -786,12 +788,12 @@ textarea {
         object-fit: contain;
         height: auto;
     }
-    #img_gallery2 {
+    /* #img_gallery2 {
         display: flex;
         width: auto;
         object-fit: contain;
         height: auto;
-    }
+    } */
 }
 @media only screen and (min-height: 1368px) {
     .container {
