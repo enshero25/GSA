@@ -651,7 +651,15 @@ textarea {
     background: rgba(0, 0, 0, 0.3);
     border: solid red 2px;
 }*/
+@media only screen and (max-width: 1024px) {
+    #img_gallery {
+        display: flex;
+        max-width: 100%;
+        object-fit: contain;
+        height: auto;
+        align-self: flex-start;
 
+}
 @media only screen and (max-width: 900px) {
     div.transparent-screen {
         width: 80%;
@@ -765,14 +773,14 @@ textarea {
         /* box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5); */
     }
     
-    #img_gallery2 {
+    /* #img_gallery2 {
         display: flex;
         width: auto;
-        object-fit: contain;
+        object-fit: contain; */
         /* height: auto; */
         /* padding: 10px; */
         /* margin: 10px;
-        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); */
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
     }
     /* .container-gallery2 {
         margin-top: 25px;
